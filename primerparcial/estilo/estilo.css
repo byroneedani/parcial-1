@@ -1,5 +1,5 @@
 body{
-	background-color: #000000;
+	background-image: url("https://i.pinimg.com/originals/b7/46/43/b74643cbbe7d68c54554544ec50cf999.jpg");
 
 }
 
@@ -8,4 +8,40 @@ header nav{
     color: black;
     overflow: hidden;
     font-weight: bold;
+    opacity: 0.6;
+}
+
+header, .main, footer{
+    background-color: #c93737;
+    width: 90%;
+    color:white;
+    max-width: 1000px;
+    margin: 20px auto;
+    font-family: comic sans-serif;
+}
+
+article{
+    background-color: red;
+    color:white;
+    opacity: 0.6;
+    text-align: justify;
+    padding:20px;
+    width:65%;
+    float: left;
+    margin: 20px;
+    border: 2px solid #87CEFA;
+    font-weight: 500;
+}
+
+aside{
+    
+}
+
+footer{
+    background-color: aqua;
+    opacity: 0.6;
+    clear: both;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
 }
